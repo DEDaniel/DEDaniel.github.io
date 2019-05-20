@@ -289,6 +289,10 @@ body{
     margin:1vh 0px;
 }
 
+.section_title:hover {
+    color: #a75c5c;
+}
+
 .about_section {
     font-size:18px;
     font-family: 'Questrial', sans-serif;
@@ -354,6 +358,18 @@ body{
     font-size:26px;
     margin-left:5vw;
     margin-top:4vh;
+}
+
+.fa-star:hover {
+    color: yellow;
+}
+
+.fa-code-branch:hover {
+    color: lightgray;
+}
+
+.fa-code:hover {
+    color: lightgray;
 }
 
 ::selection {
