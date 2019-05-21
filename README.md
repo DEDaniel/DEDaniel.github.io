@@ -1,19 +1,28 @@
 # DEDaniel.github.io
 
 ## TODO's
+:construction: In Progress
+:checkered_flag: Done
+:question: Open
+
 ### Sidebar
-- [ ] Complete the sidebar with links
-- [ ] Add animations to the sidebar 
+:construction: Complete the sidebar with links
+
+:question: Add animations to the sidebar 
 
 ### Repo's
-- [ ] Star a repository
-- [ ] Fork a repository
-- [ ] Update [protocol handler demo](https://github.com/DEDaniel/electron-tel-protocol-handler)
-- [ ] Think of merging [electron-slider](https://github.com/DEDaniel/electron-slider) and [electron-frameless-rounded](https://github.com/DEDaniel/electron-frameless-rounded)
+:question: Star a repository
+
+:question: Fork a repository
+
+:question: Update [protocol handler demo](https://github.com/DEDaniel/electron-tel-protocol-handler)
+
+:question: Think of merging [electron-slider](https://github.com/DEDaniel/electron-slider) and [electron-frameless-rounded]
+(https://github.com/DEDaniel/electron-frameless-rounded)
 
 
 ### Blog
-- [ ] Create the first Blog post
+:question: Create the first Blog post
 
 
 
