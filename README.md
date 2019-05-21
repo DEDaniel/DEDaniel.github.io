@@ -14,3 +14,9 @@
 
 ### Blog
 - [ ] Create the first Blog post
+
+
+
+
+## Credits
+Initial layout is made with [gitfolio](https://github.com/imfunniee/gitfolio) :heart: thanks to @[imfunniee](https://github.com/imfunniee)
