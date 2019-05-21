@@ -1,3 +1,5 @@
+// needs to be removed for production
+
 @import url("https://fonts.googleapis.com/css?family=Poppins");
 @import url("https://fonts.googleapis.com/css?family=Questrial");
 
@@ -61,6 +63,10 @@ body {
   background-repeat: no-repeat;
   position: fixed;
   color: #fff !important;
+
+  div {
+    margin-bottom: 20px; 
+  }
 }
 
 #display {
@@ -217,10 +223,11 @@ body {
   height: 180px;
   border-radius: 5px;
   background-size: cover !important;
-
+  background: url(https://avatars0.githubusercontent.com/u/38344956?v=4) center;
   &:hover {
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
+    // -webkit-transform: scaleX(-1);
+    // transform: scaleX(-1);
+    background: url(https://media.giphy.com/media/HbjDTy6gfBXMI/giphy.gif) center;
   }
 
   div {
@@ -262,6 +269,11 @@ body {
         transform: scale(1.5);
       }
     }
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
   }
 }
 

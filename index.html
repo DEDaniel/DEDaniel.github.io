@@ -1,127 +1,193 @@
-<!DOCTYPE html><html lang="en"><head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>DEDaniel</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="index.css">
-<link rel="icon" href="https://avatars0.githubusercontent.com/u/38344956?v=4" type="image/png"></head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="icon"
+      href="https://avatars0.githubusercontent.com/u/38344956?v=4"
+      type="image/png"
+    />
+  </head>
+
+  <body>
     <div id="loading">
-        <div id="spinner"></div>
+      <div id="spinner"></div>
     </div>
     <div id="profile">
-        <div id="profile_img" style="background: url(https://avatars0.githubusercontent.com/u/38344956?v=4) center;"></div>
-        <div id="username"><span style="display:block;">Daniel</span>@DEDaniel</div>
-        <div id="userbio" style="display: block;">Software Developer living in Germany.</div>
-        <div id="about">
-                <!-- <span style="display:block;"><i class="fas fa-users"></i> &nbsp; Profiles</span> -->
-                <!-- <span style="display:block;"><i class="fas fa-link"></i> &nbsp; Links</span> -->
-                <span style="display:block;"><i class="fas fa-envelope"></i> &nbsp;&nbsp; Contact me</span>
-                <span style="display:block;"><i class="fab fa-github"></i> &nbsp;&nbsp; Github</span>
-                <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; Germany</span>                
-            </div>
+      <div id="profile_img"></div>
+      <div id="username">
+        <span style="display:block;">Daniel</span>@DEDaniel
+      </div>
+      <div id="userbio" style="display: block;">
+        Software Developer living in Germany.
+      </div>
+      <div id="about">
+        <a href="https://github.com/DEDaniel" target="_blank">
+          <span style="display:block;"
+            ><i class="fab fa-github"></i> &nbsp;&nbsp; Github</span
+          >
+        </a>
+        <a
+          href="https://www.google.com/maps/place/Deutschland/@50.9084273,6.8867022,5.5z/data=!4m5!3m4!1s0x479a721ec2b1be6b:0x75e85d6b8e91e55b!8m2!3d51.165691!4d10.451526"
+          target="_blank"
+        >
+          <span style="display:block;"
+            ><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; Germany</span
+          >
+        </a>
+        <a href="mailto:contact@d-moellmann.de">
+            <span style="display:block;"
+              ><i class="fas fa-envelope"></i> &nbsp;&nbsp; Contact me</span
+            >
+          </a>
+      </div>
     </div>
     <div id="display">
-        <div id="work">
-            <h1>Work.</h1>
-            <div class="projects" id="work_section">
-                        <a href="https://github.com/DEDaniel/DEDaniel.github.io" target="_blank">
-                        <section>
-                            <div class="section_title">DEDaniel.github.io</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/DEDaniel/electron-slider" target="_blank">
-                        <section>
-                            <div class="section_title">electron-slider</div>
-                            <div class="about_section">
-                            <span style="display:block;">Rounded electron image slider application</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/DEDaniel/home-rotation" target="_blank">
-                        <section>
-                            <div class="section_title">home-rotation</div>
-                            <div class="about_section">
-                            <span style="display:block;">Ionic 4 test application</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; TypeScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/DEDaniel/electron-frameless-rounded" target="_blank">
-                        <section>
-                            <div class="section_title">electron-frameless-rounded</div>
-                            <div class="about_section">
-                            <span style="display:block;">create a frameless rounded electron app</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 1</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/DEDaniel/electron-tel-protocol-handler" target="_blank">
-                        <section>
-                            <div class="section_title">electron-tel-protocol-handler</div>
-                            <div class="about_section">
-                            <span style="display:block;">handle the tel protocol in an electron app</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a></div>
+      <div id="work">
+        <h1>Work.</h1>
+        <div class="projects" id="work_section">
+          <a
+            href="https://github.com/DEDaniel/DEDaniel.github.io"
+            target="_blank"
+          >
+            <section>
+              <div class="section_title">DEDaniel.github.io</div>
+              <div class="about_section">
+                <span style="display:none;">undefined</span>
+              </div>
+              <div class="bottom_section">
+                <span style="display:inline-block;"
+                  ><i class="fas fa-code"></i>&nbsp; CSS</span
+                >
+                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+              </div>
+            </section>
+          </a>
+          <a href="https://github.com/DEDaniel/electron-slider" target="_blank">
+            <section>
+              <div class="section_title">electron-slider</div>
+              <div class="about_section">
+                <span style="display:block;"
+                  >Rounded electron image slider application</span
+                >
+              </div>
+              <div class="bottom_section">
+                <span style="display:inline-block;"
+                  ><i class="fas fa-code"></i>&nbsp; HTML</span
+                >
+                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+              </div>
+            </section>
+          </a>
+          <a href="https://github.com/DEDaniel/home-rotation" target="_blank">
+            <section>
+              <div class="section_title">home-rotation</div>
+              <div class="about_section">
+                <span style="display:block;">Ionic 4 test application</span>
+              </div>
+              <div class="bottom_section">
+                <span style="display:inline-block;"
+                  ><i class="fas fa-code"></i>&nbsp; TypeScript</span
+                >
+                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+              </div>
+            </section>
+          </a>
+          <a
+            href="https://github.com/DEDaniel/electron-frameless-rounded"
+            target="_blank"
+          >
+            <section>
+              <div class="section_title">electron-frameless-rounded</div>
+              <div class="about_section">
+                <span style="display:block;"
+                  >create a frameless rounded electron app</span
+                >
+              </div>
+              <div class="bottom_section">
+                <span style="display:inline-block;"
+                  ><i class="fas fa-code"></i>&nbsp; JavaScript</span
+                >
+                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                <span><i class="fas fa-code-branch"></i>&nbsp; 1</span>
+              </div>
+            </section>
+          </a>
+          <a
+            href="https://github.com/DEDaniel/electron-tel-protocol-handler"
+            target="_blank"
+          >
+            <section>
+              <div class="section_title">electron-tel-protocol-handler</div>
+              <div class="about_section">
+                <span style="display:block;"
+                  >handle the tel protocol in an electron app</span
+                >
+              </div>
+              <div class="bottom_section">
+                <span style="display:inline-block;"
+                  ><i class="fas fa-code"></i>&nbsp; JavaScript</span
+                >
+                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+              </div>
+            </section>
+          </a>
         </div>
-        <div id="forks" style="display:none;">
-            <h1>Forks.</h1>
-            <div class="projects" id="forks_section"></div>
-        </div>
-        <div id="blog_section">
-            <h1>Blog.</h1>
-            <div id="blogs"></div>
-        </div>
-        <div id="footer">
-            <a href="https://github.com/DEDaniel" target="_blank">Made with ❤ by DEDaniel</a>
-        </div>  
+      </div>
+      <div id="forks" style="display:none;">
+        <h1>Forks.</h1>
+        <div class="projects" id="forks_section"></div>
+      </div>
+      <div id="blog_section">
+        <h1>Blog.</h1>
+        <div id="blogs"></div>
+      </div>
+      <div id="footer">
+        <a href="https://github.com/DEDaniel" target="_blank"
+          >Made with ❤ by DEDaniel</a
+        >
+      </div>
     </div>
     <script type="text/javascript">
-    setTimeout(function(){
+      setTimeout(function() {
         document.getElementById("loading").classList.add("animated");
         document.getElementById("loading").classList.add("fadeOut");
-        setTimeout(function(){
-        document.getElementById("loading").classList.remove("animated");
-        document.getElementById("loading").classList.remove("fadeOut");
-        document.getElementById("loading").style.display = "none";
-        },800);
-    },1500);
-    $.getJSON("blog.json", function(blog){
-        if(blog.length == 0){
-            return document.getElementById("blog_section").style.display = "none";
+        setTimeout(function() {
+          document.getElementById("loading").classList.remove("animated");
+          document.getElementById("loading").classList.remove("fadeOut");
+          document.getElementById("loading").style.display = "none";
+        }, 800);
+      }, 1500);
+      $.getJSON("blog.json", function(blog) {
+        if (blog.length == 0) {
+          return (document.getElementById("blog_section").style.display =
+            "none");
         }
-        for(var i = 0; i < blog.length; i++){
-            $("#blogs").append(`
+        for (var i = 0; i < blog.length; i++) {
+          $("#blogs").append(`
             <a href="./blog/${blog[i].url_title}/" target="_blank">
                 <section>
                     <img src="${blog[i].top_image}">
@@ -135,7 +201,7 @@
             </a>
             `);
         }
-    });
+      });
     </script>
-
-</body></html>
+  </body>
+</html>

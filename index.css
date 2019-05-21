@@ -94,6 +94,10 @@ body {
   color: #fff !important;
 }
 
+#profile div {
+  margin-bottom: 20px;
+}
+
 #display {
   width: 64vw;
   padding: 4vh 3vw;
@@ -248,11 +252,11 @@ body {
   height: 180px;
   border-radius: 5px;
   background-size: cover !important;
+  background: url(https://avatars0.githubusercontent.com/u/38344956?v=4) center;
 }
 
 #profile_img:hover {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
+  background: url(https://media.giphy.com/media/HbjDTy6gfBXMI/giphy.gif) center;
 }
 
 #profile_img div {
@@ -296,6 +300,11 @@ body {
 #about span:hover i {
   -webkit-transform: scale(1.5);
           transform: scale(1.5);
+}
+
+#about a {
+  color: inherit;
+  text-decoration: none;
 }
 
 #work {
