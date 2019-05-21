@@ -15,7 +15,7 @@
 
 :question: Fork a repository
 
-:question: Update [protocol handler demo](https://github.com/DEDaniel/electron-tel-protocol-handler)
+:construction: Update [protocol handler demo](https://github.com/DEDaniel/electron-tel-protocol-handler)
 
 :question: Think of merging [electron-slider](https://github.com/DEDaniel/electron-slider) and [electron-frameless-rounded](https://github.com/DEDaniel/electron-frameless-rounded)
 
