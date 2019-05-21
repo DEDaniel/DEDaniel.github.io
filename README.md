@@ -6,7 +6,7 @@
 :question: Open
 
 ### Sidebar
-:construction: Complete the sidebar with links
+:checkered_flag: Complete the sidebar with links
 
 :question: Add animations to the sidebar 
 
